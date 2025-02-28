@@ -2,4 +2,30 @@ var app=new function(){this.name="Bite-size beats",this.version="2",this.date="2
     {name:"Fun Up",src:"bonus-fun-up.mp4",code:"6,8,11,13,21",sound:"bonus-jessie."+this.sndtype}, 
     {name:"Jessie J",src:"bonus-jessie.mp4",code:"2,9,10,11,18",sound:"bonus-fun-up."+this.sndtype}
 ],
-    this.oldbonus={aspire:"aspire.mp3",music:"bonus-fun-up.mp3",video:"bonus-fun-up.mp4"},this.persoarray=[{perso:"brown",color:"995B17",file:"brown-sprite.png",sprite:null,eyes:{posY:92,p1x:78,p1y:126,p2x:121,p2y:126,pW:7,pH:10,dist:7}},{perso:"red",color:"D5002A",file:"red-sprite.png",sprite:null,eyes:{posY:120,p1x:80,p1y:153,p2x:120,p2y:153,pW:8,pH:14,dist:7}},{perso:"yellow",color:"EFCF19",file:"yellow-sprite.png",sprite:null,eyes:{posY:72,p1x:80,p1y:105,p2x:120,p2y:105,pW:8,pH:12,dist:10}},{perso:"green",color:"439B2B",file:"green-sprite.png",sprite:null,eyes:{posY:102,p1x:80,p1y:136,p2x:120,p2y:136,pW:9,pH:11,dist:7}},{perso:"blue",color:"2981D0",file:"blue-sprite.png",sprite:null,eyes:{posY:78,p1x:81,p1y:114,p2x:118,p2y:114,pW:7,pH:12,dist:10}},{perso:"orange",color:"E87828",file:"orange-sprite.png",sprite:null,eyes:{posY:118,p1x:78,p1y:152,p2x:121,p2y:152,pW:7,pH:7,dist:9}}];for(var a=0,b=this.animearray.length;a<b;a++){var c=this.animearray[a].name;this.animearray[a].soundA=c+"."+this.sndtype,this.animearray[a].anime=c+"-sprite.png",this.animearray[a].animeData=c+".json"}};
+    this.oldbonus={aspire:"aspire.mp3",music:"bonus-fun-up.mp3",video:"bonus-fun-up.mp4"},
+    this.persoarray=[
+        {perso:"brown",color:"995B17",file:"brown-sprite.png",sprite:null,eyes:{posY:92,p1x:78,p1y:126,p2x:121,p2y:126,pW:7,pH:10,dist:7}},
+        {perso:"red",color:"D5002A",file:"red-sprite.png",sprite:null,eyes:{posY:120,p1x:80,p1y:153,p2x:120,p2y:153,pW:8,pH:14,dist:7}},
+        {perso:"yellow",color:"EFCF19",file:"yellow-sprite.png",sprite:null,eyes:{posY:72,p1x:80,p1y:105,p2x:120,p2y:105,pW:8,pH:12,dist:10}},
+        {perso:"green",color:"439B2B",file:"green-sprite.png",sprite:null,eyes:{posY:102,p1x:80,p1y:136,p2x:120,p2y:136,pW:9,pH:11,dist:7}},
+        {perso:"blue",color:"2981D0",file:"blue-sprite.png",sprite:null,eyes:{posY:78,p1x:81,p1y:114,p2x:118,p2y:114,pW:7,pH:12,dist:10}},
+        {perso:"orange",color:"E87828",file:"orange-sprite.png",sprite:null,eyes:{posY:118,p1x:78,p1y:152,p2x:121,p2y:152,pW:7,pH:7,dist:9}},
+        {perso:"brown",color:"995B17",file:"brown-sprite.png",sprite:null,eyes:{posY:92,p1x:78,p1y:126,p2x:121,p2y:126,pW:7,pH:10,dist:7}},
+        {perso:"red",color:"D5002A",file:"red-sprite.png",sprite:null,eyes:{posY:120,p1x:80,p1y:153,p2x:120,p2y:153,pW:8,pH:14,dist:7}},
+        {perso:"yellow",color:"EFCF19",file:"yellow-sprite.png",sprite:null,eyes:{posY:72,p1x:80,p1y:105,p2x:120,p2y:105,pW:8,pH:12,dist:10}},
+        {perso:"green",color:"439B2B",file:"green-sprite.png",sprite:null,eyes:{posY:102,p1x:80,p1y:136,p2x:120,p2y:136,pW:9,pH:11,dist:7}},
+        {perso:"blue",color:"2981D0",file:"blue-sprite.png",sprite:null,eyes:{posY:78,p1x:81,p1y:114,p2x:118,p2y:114,pW:7,pH:12,dist:10}},
+        {perso:"orange",color:"E87828",file:"orange-sprite.png",sprite:null,eyes:{posY:118,p1x:78,p1y:152,p2x:121,p2y:152,pW:7,pH:7,dist:9}},
+        {perso:"brown",color:"995B17",file:"brown-sprite.png",sprite:null,eyes:{posY:92,p1x:78,p1y:126,p2x:121,p2y:126,pW:7,pH:10,dist:7}},
+        {perso:"red",color:"D5002A",file:"red-sprite.png",sprite:null,eyes:{posY:120,p1x:80,p1y:153,p2x:120,p2y:153,pW:8,pH:14,dist:7}},
+        {perso:"yellow",color:"EFCF19",file:"yellow-sprite.png",sprite:null,eyes:{posY:72,p1x:80,p1y:105,p2x:120,p2y:105,pW:8,pH:12,dist:10}},
+        {perso:"green",color:"439B2B",file:"green-sprite.png",sprite:null,eyes:{posY:102,p1x:80,p1y:136,p2x:120,p2y:136,pW:9,pH:11,dist:7}},
+        {perso:"blue",color:"2981D0",file:"blue-sprite.png",sprite:null,eyes:{posY:78,p1x:81,p1y:114,p2x:118,p2y:114,pW:7,pH:12,dist:10}},
+        {perso:"orange",color:"E87828",file:"orange-sprite.png",sprite:null,eyes:{posY:118,p1x:78,p1y:152,p2x:121,p2y:152,pW:7,pH:7,dist:9}},
+        {perso:"brown",color:"995B17",file:"brown-sprite.png",sprite:null,eyes:{posY:92,p1x:78,p1y:126,p2x:121,p2y:126,pW:7,pH:10,dist:7}},
+        {perso:"red",color:"D5002A",file:"red-sprite.png",sprite:null,eyes:{posY:120,p1x:80,p1y:153,p2x:120,p2y:153,pW:8,pH:14,dist:7}},
+        {perso:"yellow",color:"EFCF19",file:"yellow-sprite.png",sprite:null,eyes:{posY:72,p1x:80,p1y:105,p2x:120,p2y:105,pW:8,pH:12,dist:10}},
+        {perso:"green",color:"439B2B",file:"green-sprite.png",sprite:null,eyes:{posY:102,p1x:80,p1y:136,p2x:120,p2y:136,pW:9,pH:11,dist:7}},
+        {perso:"blue",color:"2981D0",file:"blue-sprite.png",sprite:null,eyes:{posY:78,p1x:81,p1y:114,p2x:118,p2y:114,pW:7,pH:12,dist:10}},
+        {perso:"orange",color:"E87828",file:"orange-sprite.png",sprite:null,eyes:{posY:118,p1x:78,p1y:152,p2x:121,p2y:152,pW:7,pH:7,dist:9}}];
+        for(var a=0,b=this.animearray.length;a<b;a++){var c=this.animearray[a].name;this.animearray[a].soundA=c+"."+this.sndtype,this.animearray[a].anime=c+"-sprite.png",this.animearray[a].animeData=c+".json"}};
